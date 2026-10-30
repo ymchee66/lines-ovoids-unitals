@@ -41,6 +41,10 @@ for l in open('part8_results.jsonl'):
     d=json.loads(l)
     if d['status']=='SAT': put((d['N'],d['t'],d['k'],d['v']),'PGammaL(2,32)','lemma' if d['lemma'] else 'ip')
 PA={k:v for k,v in PA.items() if not (k[1]<4 and any((k[0],tt,k[2],k[3]) in PA for tt in range(k[1]+1,5)))}
+import os
+LOTFILE=os.environ.get('LOTFILE','lot_v100.json')
+LOT=[tuple(x) for x in json.load(open(LOTFILE))]
+base.DIRECT.extend((N,t,k,v,'LOT10 Sec. 4, '+g) for (N,t,k,v,g) in LOT)
 L=build(False)
 DIRECT0=list(base.DIRECT)
 base.DIRECT.extend((N,t,k,v,'PL') for (N,t,k,v) in PA)

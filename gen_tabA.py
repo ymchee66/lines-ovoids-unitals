@@ -8,6 +8,9 @@ from lemma import lemma
 from thm import case, ls
 from groups import all_groups
 D=json.load(open('tableA.json'))
+import base
+LOT=[tuple(x) for x in json.load(open('lot_v100.json'))]
+base.DIRECT.extend((N,t,k,v,'LOT10 Sec. 4, '+g) for (N,t,k,v,g) in LOT)
 L=build(False)
 PA={tuple(x[:4]):(x[4],x[5]) for x in D['PA']}
 G=all_groups(); byv=defaultdict(list)

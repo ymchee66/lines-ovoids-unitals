@@ -7,6 +7,9 @@ from thm_r import psl_r_q3, psl_r_q1, pgl_r, split_r
 from thm_2grp import psl_2grp, pgl_2grp2
 from chain import chain_ok
 from four import four_ok
+import base as _b
+_LOT=[tuple(x) for x in json.load(open('lot_v100.json'))]
+_b.DIRECT.extend((N,t,k,v,'LOT') for (N,t,k,v,g) in _LOT)
 L=build(False)
 def lp(h,r,a,total,N):
     if total%N: return False

@@ -10,12 +10,16 @@ Supplementary material for the paper of the same title by Yeow Meng Chee.
 | `[SGP]2_q.txt`, `L*.txt`, `U*.txt`, `Sz8.txt`, `R3.txt`, `aff/A_d_i.txt` | For each group: its order, the orders of the subgroup classes, and the number of orbits on k-subsets with each stabilizer class, obtained from the table of marks by Möbius inversion |
 | `hom2.txt` | Degree of homogeneity and names of the affine groups (GAP primitive groups library) |
 | `gap/` | GAP scripts that compute the tables of marks and the orbit data |
-| `certs.jsonl` | One certificate for each of the 1365 direct large sets of the paper: N, t, k, v, the group file, and the N classes, each given as a multiset of orbit lengths |
+| `certs.jsonl` | One certificate for each of the 1199 direct large sets of the paper: N, t, k, v, the group file, and the N classes, each given as a multiset of orbit lengths |
 | `verify_final.py` | Checks every certificate (see below) |
 | `part*_results.jsonl`, `searchT_results.jsonl`, `cover.json` | Raw search output |
 | `base.py`, `engine.py`, `large_sets_table.csv` | The literature baseline and the closure under the known recursive constructions |
+| `lot.py`, `lot_v100.py`, `lot_v100.json` | The large sets given by Laue, Omidi, and Tayfeh-Rezaie, Ars Combin. 97 (2010), Section 4, for the 187 groups; part of the literature baseline |
+| `conj41.py`, `conj41_solve.py`, `conj41_results.json` | Test of Conjecture 4.1 of Laue, Omidi, and Tayfeh-Rezaie on the 187 groups (924 cases, all feasible) |
+| `valuation_check.py` | Lemma 2.5 applied to PSL(3,3), PSL(3,7), PSL(3,8), and PSL(4,3) |
+| `families2000/` | Novelty check of the members of Theorem 1.1 with v <= 2000 against the literature closure (including Thm 4.3 of Laue et al.) for all 115 prime sizes that occur |
 | `tableA.py`, `gen_tabA.py` | Produce `tableA.json`, the summary table and the appendix table |
-| `count_cf.py` | Counts the direct large sets given in closed form by the theorems on projective lines (214) |
+| `count_cf.py` | Counts the direct large sets given in closed form by the theorems on projective lines (159) |
 | `thm*.py`, `chain.py`, `four.py`, `lemma.py` | The closed-form theorems and the partition criteria of the paper |
 | `families/` | Checks of the infinite families against the known constructions for larger v |
 
@@ -33,7 +37,7 @@ For each certificate, the script loads the orbit data of the stated group and ch
 
 Since the group is t-homogeneous, every union of its orbits on k-subsets is a t-design, so each class is a t-design and the classes form an LS[N](t,k,v). An explicit large set is obtained by choosing, for each class, orbits of the stated lengths.
 
-Expected output: `verified 1365 failed 0 []`.
+Expected output: `verified 1199 failed 0 []`.
 
 ## Reproducing the tables
 
