@@ -1,0 +1,188 @@
+degree	homogeneity	name	file
+13	2	PSL(3,3)	L33.txt
+13	2	AGL(1, 13)	aff/A_13_6.txt
+14	3	PGL(2,13)	G2_13.txt
+14	2	PSL(2,13)	S2_13.txt
+15	2	A(7)	aff/A_15_1.txt
+16	3	2^4.PSL(4, 2)	aff/A_16_11.txt
+16	2	AGammaL(2, 4)	aff/A_16_12.txt
+16	2	ASL(2, 4):2	aff/A_16_13.txt
+16	2	AGL(2, 4)	aff/A_16_14.txt
+16	2	ASL(2, 4)	aff/A_16_15.txt
+16	2	2^4.S(6)	aff/A_16_16.txt
+16	2	2^4.A(6)	aff/A_16_17.txt
+16	3	2^4.A(7)	aff/A_16_20.txt
+16	2	AGL(1, 16)	aff/A_16_3.txt
+16	2	AGL(1, 16):2	aff/A_16_6.txt
+16	2	AGammaL(1, 16)	aff/A_16_9.txt
+17	3	PGammaL(2,16)	P2_16.txt
+17	3	PSL(2,16)	S2_16.txt
+17	2	AGL(1, 17)	aff/A_17_5.txt
+18	3	PGL(2,17)	G2_17.txt
+18	2	PSL(2,17)	S2_17.txt
+19	2	19:9	aff/A_19_5.txt
+19	2	AGL(1, 19)	aff/A_19_6.txt
+20	3	PGL(2,19)	G2_19.txt
+20	3	PSL(2,19)	S2_19.txt
+21	2	PSigmaL(3, 4)	aff/A_21_5.txt
+21	2	PGL(3, 4)	aff/A_21_6.txt
+21	2	PGammaL(3, 4)	aff/A_21_7.txt
+22	3	M(22)	aff/A_22_1.txt
+22	3	M(22):2	aff/A_22_2.txt
+23	2	23:11	aff/A_23_3.txt
+23	2	AGL(1, 23)	aff/A_23_4.txt
+24	3	PGL(2,23)	G2_23.txt
+24	3	PSL(2,23)	S2_23.txt
+25	2	5^2:3:8	aff/A_25_12.txt
+25	2	AGL(1, 25)	aff/A_25_14.txt
+25	2	5^2:(Q(8):3)	aff/A_25_15.txt
+25	2	AGammaL(1, 25)	aff/A_25_17.txt
+25	2	5^2:((Q(8):3)'2)	aff/A_25_18.txt
+25	2	5^2:((Q(8):3)'4)	aff/A_25_19.txt
+25	2	ASL(2, 5)	aff/A_25_20.txt
+25	2	ASL(2, 5):2	aff/A_25_21.txt
+25	2	AGL(2, 5)	aff/A_25_22.txt
+26	3	PGL(2,25)	G2_25.txt
+26	3	PGammaL(2,25)	P2_25.txt
+26	2	PSL(2,25)	S2_25.txt
+26	2	PSigmaL(2, 25)	aff/A_26_3.txt
+26	3	PSL(2, 25).2_3	aff/A_26_4.txt
+27	2	ASL(3, 3)	aff/A_27_10.txt
+27	2	AGL(3, 3)	aff/A_27_11.txt
+27	2	3^3:13	aff/A_27_2.txt
+27	2	AGL(1, 27)	aff/A_27_6.txt
+27	2	3^3.13.3	aff/A_27_7.txt
+27	2	AGammaL(1, 27)	aff/A_27_9.txt
+28	3	PGL(2,27)	G2_27.txt
+28	3	PGammaL(2,27)	P2_27.txt
+28	2	2G2(3)	R3.txt
+28	3	PSL(2,27)	S2_27.txt
+28	2	PSU(3,3)	U33.txt
+28	2	PGammaU(3, 3)	aff/A_28_5.txt
+29	2	AGL(1, 29)	aff/A_29_6.txt
+30	3	PGL(2,29)	G2_29.txt
+30	2	PSL(2,29)	S2_29.txt
+31	2	31:15	aff/A_31_7.txt
+31	2	AGL(1, 31)	aff/A_31_8.txt
+32	3	PGL(2,31)	G2_31.txt
+32	3	PSL(2,31)	S2_31.txt
+32	2	AGL(1, 32)	aff/A_32_1.txt
+32	3	AGammaL(1, 32)	aff/A_32_2.txt
+33	4	PGammaL(2,32)	P2_32.txt
+33	3	PSL(2,32)	S2_32.txt
+37	2	AGL(1, 37)	aff/A_37_9.txt
+38	3	PGL(2,37)	G2_37.txt
+38	2	PSL(2,37)	S2_37.txt
+40	2	PSL(4,3)	L43.txt
+41	2	AGL(1, 41)	aff/A_41_8.txt
+42	3	PGL(2,41)	G2_41.txt
+42	2	PSL(2,41)	S2_41.txt
+43	2	43:21	aff/A_43_7.txt
+43	2	AGL(1, 43)	aff/A_43_8.txt
+44	3	PGL(2,43)	G2_43.txt
+44	3	PSL(2,43)	S2_43.txt
+47	2	47:23	aff/A_47_3.txt
+47	2	AGL(1, 47)	aff/A_47_4.txt
+48	3	PGL(2,47)	G2_47.txt
+48	3	PSL(2,47)	S2_47.txt
+49	2	7^2:(3 x Q(16))	aff/A_49_22.txt
+49	2	AGL(1, 49)=7^2:48	aff/A_49_23.txt
+49	2	7^2:(Q(8)'D(2*3))	aff/A_49_25.txt
+49	2	AGammaL(1, 49)	aff/A_49_28.txt
+49	2	7^2:((Q(8)'D(2*3)) x 3)	aff/A_49_29.txt
+49	2	ASL(2, 7)	aff/A_49_30.txt
+49	2	ASL(2, 7):2	aff/A_49_31.txt
+49	2	ASL(2, 7):3	aff/A_49_32.txt
+49	2	AGL(2, 7)	aff/A_49_33.txt
+50	3	PGL(2,49)	G2_49.txt
+50	3	PGammaL(2,49)	P2_49.txt
+50	2	PSL(2,49)	S2_49.txt
+50	2	PSigmaL(2, 49)	aff/A_50_5.txt
+50	3	PSL(2, 49).2_3	aff/A_50_6.txt
+53	2	AGL(1, 53)	aff/A_53_6.txt
+54	3	PGL(2,53)	G2_53.txt
+54	2	PSL(2,53)	S2_53.txt
+57	2	PSL(3,7)	L37.txt
+59	2	59:29	aff/A_59_3.txt
+59	2	AGL(1, 59)	aff/A_59_4.txt
+60	3	PGL(2,59)	G2_59.txt
+60	3	PSL(2,59)	S2_59.txt
+61	2	AGL(1, 61)	aff/A_61_12.txt
+62	3	PGL(2,61)	G2_61.txt
+62	2	PSL(2,61)	S2_61.txt
+64	2	AGL(1, 2^6)	aff/A_64_12.txt
+64	2	2^6:7:9	aff/A_64_14.txt
+64	2	2^6:(7 x D_18)	aff/A_64_20.txt
+64	2	2^6:7:9:3	aff/A_64_24.txt
+64	2	2^6:7:9:6	aff/A_64_32.txt
+64	2	AGammaL(2, 8)	aff/A_64_49.txt
+64	2	ASigmaL(2, 8)	aff/A_64_50.txt
+64	2	AGL(2, 8)	aff/A_64_51.txt
+64	2	2^6:PSL(2, 8)	aff/A_64_52.txt
+64	2	2^6:SU(3, 3)	aff/A_64_63.txt
+65	3	PGammaL(2,64)	P2_64.txt
+65	3	PSL(2,64)	S2_64.txt
+65	2	Sz(8)	Sz8.txt
+65	2	PSU(3,4)	U34.txt
+65	2	PSU(3, 4).2	aff/A_65_4.txt
+65	2	PGammaU(3, 4)	aff/A_65_5.txt
+65	2	PSz(8).3	aff/A_65_7.txt
+65	3	PSL(2, 2^6).2	aff/A_65_9.txt
+67	2	67:33	aff/A_67_7.txt
+67	2	AGL(1, 67)	aff/A_67_8.txt
+68	3	PGL(2,67)	G2_67.txt
+68	3	PSL(2,67)	S2_67.txt
+71	2	71:35	aff/A_71_7.txt
+71	2	AGL(1, 71)	aff/A_71_8.txt
+72	3	PGL(2,71)	G2_71.txt
+72	3	PSL(2,71)	S2_71.txt
+73	2	PSL(3,8)	L38.txt
+73	2	AGL(1, 73)	aff/A_73_12.txt
+74	3	PGL(2,73)	G2_73.txt
+74	2	PSL(2,73)	S2_73.txt
+79	2	79:39	aff/A_79_7.txt
+79	2	AGL(1, 79)	aff/A_79_8.txt
+80	3	PGL(2,79)	G2_79.txt
+80	3	PSL(2,79)	S2_79.txt
+81	2	3^4:2.Alt(6)	aff/A_81_111.txt
+81	2	3^4:4.Alt(6)	aff/A_81_112.txt
+81	2	3^4:2.Sym(6)	aff/A_81_113.txt
+81	2	3^4:8.Alt(6)	aff/A_81_114.txt
+81	2	3^4:SL(2, 9):2^2	aff/A_81_115.txt
+81	2	3^4:4.Alt(6).2	aff/A_81_116.txt
+81	2	3^4:2.Alt(6):D_8	aff/A_81_117.txt
+81	2	AGL(2, 9)	aff/A_81_118.txt
+81	2	3^4:2.Alt(6):Q_8	aff/A_81_119.txt
+81	2	3^4:2.Alt(5).2	aff/A_81_124.txt
+81	2	3^4:8.Alt(5)	aff/A_81_126.txt
+81	2	3^4:4.Sym(5)	aff/A_81_127.txt
+81	2	3^4:8.Sym(5)	aff/A_81_128.txt
+81	2	3^4:2^(1+4).Alt(5):2	aff/A_81_129.txt
+81	2	3^4:2^(1+4).Alt(5)	aff/A_81_130.txt
+81	2	3^4:5:16	aff/A_81_44.txt
+81	2	3^4:80	aff/A_81_47.txt
+81	2	3^4:5:2^(2+1+2)	aff/A_81_69.txt
+81	2	3^4:16:D_10	aff/A_81_70.txt
+81	2	3^4:((2x Q_8):2):5	aff/A_81_71.txt
+81	2	3^4:16:5:4	aff/A_81_89.txt
+81	2	3^4:((2 x Q_8):2):D_10	aff/A_81_90.txt
+81	2	3^4:((2 x Q_8):2):5:4	aff/A_81_99.txt
+82	3	PGL(2,81)	G2_81.txt
+82	3	PGammaL(2,81)	P2_81.txt
+82	2	PSL(2,81)	S2_81.txt
+82	2	PSL(2, 3^4).2	aff/A_82_2.txt
+82	3	PSL(2, 3^4).2	aff/A_82_3.txt
+82	3	PSL(2, 3^4).2	aff/A_82_4.txt
+82	3	PSL(2, 3^4).2^2	aff/A_82_5.txt
+82	2	PSL(2, 3^4).4	aff/A_82_6.txt
+82	3	PSL(2, 3^4).4	aff/A_82_7.txt
+83	2	83:41	aff/A_83_3.txt
+83	2	AGL(1, 83)	aff/A_83_4.txt
+84	3	PGL(2,83)	G2_83.txt
+84	3	PSL(2,83)	S2_83.txt
+89	2	AGL(1, 89)	aff/A_89_8.txt
+90	3	PGL(2,89)	G2_89.txt
+90	2	PSL(2,89)	S2_89.txt
+97	2	AGL(1, 97)	aff/A_97_12.txt
+98	3	PGL(2,97)	G2_97.txt
+98	2	PSL(2,97)	S2_97.txt
