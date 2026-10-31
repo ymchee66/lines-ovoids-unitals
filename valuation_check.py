@@ -1,4 +1,4 @@
-"""Lemma 2.5 (valuation condition) for PSL(3,3), PSL(3,7), PSL(3,8) and PSL(4,3): counts the admissible LS[N](2,k,v), N<=43 prime, that it excludes."""
+"""Lemma 3.5 (the valuation lemma) (valuation condition) for PSL(3,3), PSL(3,7), PSL(3,8) and PSL(4,3): counts the admissible LS[N](2,k,v), N<=43 prime, that it excludes."""
 import sys,json
 from math import comb
 from check import load

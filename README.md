@@ -16,7 +16,7 @@ Supplementary material for the paper of the same title by Yeow Meng Chee.
 | `base.py`, `engine.py`, `large_sets_table.csv` | The literature baseline and the closure under the known recursive constructions |
 | `lot.py`, `lot_v100.py`, `lot_v100.json` | The large sets given by Laue, Omidi, and Tayfeh-Rezaie, Ars Combin. 97 (2010), Section 4, for the 187 groups; part of the literature baseline |
 | `conj41.py`, `conj41_solve.py`, `conj41_results.json` | Test of Conjecture 4.1 of Laue, Omidi, and Tayfeh-Rezaie on the 187 groups (924 cases, all feasible) |
-| `valuation_check.py` | Lemma 2.5 applied to PSL(3,3), PSL(3,7), PSL(3,8), and PSL(4,3) |
+| `valuation_check.py` | Lemma 3.5 (the valuation lemma) applied to PSL(3,3), PSL(3,7), PSL(3,8), and PSL(4,3) |
 | `families2000/` | Novelty check of the members of Theorem 1.1 with v <= 2000 against the literature closure (including Thm 4.3 of Laue et al.) for all 115 prime sizes that occur |
 | `tableA.py`, `gen_tabA.py` | Produce `tableA.json`, the summary table and the appendix table |
 | `count_cf.py` | Counts the direct large sets given in closed form by the theorems on projective lines (159) |
